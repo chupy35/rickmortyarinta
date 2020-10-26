@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Card from 'react-bootstrap/Card'
 
-class CharacterCard extends React.Component{
-    constructor(props){
+class CharacterCard extends React.Component<any, any>{
+   constructor(props: any){
         super(props);
     }
     render(){
